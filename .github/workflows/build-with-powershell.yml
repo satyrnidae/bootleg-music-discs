@@ -32,7 +32,7 @@ jobs:
         uses: Amadevus/pwsh-script@v2.0.1
         with:
           # PowerShell script to execute in Actions-hydrated context
-          script: build.ps1   
+          script: ./build.ps1   
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.0
         with:
