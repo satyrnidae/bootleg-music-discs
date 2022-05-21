@@ -10,7 +10,7 @@ if (Test-Path $packFile) {
   # Load pack json to get file name
   $pack = (Get-Content $packFile | Out-String | ConvertFrom-Json)
   if ($pack.meta.baseArchiveName -and $pack.meta.version) {
-    $outFile = "$buildDir\$($pack.meta.baseArchiveName)-$($pack.meta.version).zip"
+    $outFile = "$buildDir/$($pack.meta.baseArchiveName)-$($pack.meta.version).zip"
 
     if (Test-Path $outFile) {
       Remove-Item $outFile -force
