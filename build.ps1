@@ -17,6 +17,6 @@ if (Test-Path $packFile) {
       Write-Output "Removed previous build at $outFile"
     }
 
-    &"C:\Program Files\7-zip\7z.exe" a -tzip -i"!$PSScriptRoot\*" -x"!$PSScriptRoot\.*" $outFile
+    7z a -tzip -i"!$PSScriptRoot\*" -x"!$PSScriptRoot\.*" $outFile
   }
 }
