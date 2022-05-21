@@ -24,7 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
+      - name: Setup p7zip fork
+        # You may pin to the exact commit or the version.
+        # uses: AnimMouse/setup-p7zip-fork@8f66ccd8b639446f27889d733e2000b61ce0e746
+        uses: AnimMouse/setup-p7zip-fork@v1
       # Runs a single command using the runners shell
       - name: PowerShell script
         # You may pin to the exact commit or the version.
