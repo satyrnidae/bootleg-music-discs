@@ -6,9 +6,12 @@
   "meta": {
     "author": "Isabel Maskrey (saturniidae)",
     "website": "https://satyrn.dev",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "baseArchiveName": "bootleg-music-discs",
     "changelog": {
+      "1.0.3": [
+        "Fix smelting taking twice as long as desired."
+      ],
       "1.0.2": [
         "Change tag name from \"copyable\" to \"recuttable\""
       ],
