@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "music_disc",
+  "ingredient": {
+    "tag": "bootleg:recuttable_music_discs"
+  },
+  "result": "minecraft:music_disc_11",
+  "experience": 0.7,
+  "cookingtime": 200
+}

@@ -1,0 +1,51 @@
+{
+  "parent": "bootleg:recipes/root",
+  "criteria": {
+    "has_the_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "bootleg:recuttable_music_discs"
+          },
+          {
+            "items": ["minecraft:diamond"]
+          },
+          {
+            "items": ["minecraft:green_dye"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bootleg:music_disc_ward_from_recutting"
+      }
+    },
+    "has_the_result": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_ward"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_ingredients",
+      "has_the_recipe",
+      "has_the_result"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bootleg:music_disc_ward_from_recutting"
+    ]
+  }
+}

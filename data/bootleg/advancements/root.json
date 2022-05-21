@@ -1,0 +1,23 @@
+{
+  "display": {
+    "frame": "task",
+    "icon": {
+      "item": "minecraft:music_disc_11"
+    },
+    "title": [
+      "Bootleg Music Discs"
+    ],
+    "description": [
+      "Re-cut and re-craft your overworld music discs."
+    ],
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false
+  },
+  "parent": "global:satyrnidae/author",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

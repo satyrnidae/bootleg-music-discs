@@ -1,0 +1,21 @@
+{
+  "pack": {
+    "pack_format": 9,
+    "description": "Bootleg Music Discs"
+  },
+  "meta": {
+    "author": "Isabel Maskrey (saturniidae)",
+    "website": "https://satyrn.dev",
+    "version": "1.0.2",
+    "baseArchiveName": "bootleg-music-discs",
+    "changelog": {
+      "1.0.2": [
+        "Change tag name from \"copyable\" to \"recuttable\""
+      ],
+      "1.0.1": [
+        "Add recipe for stal from smelting 11",
+        "Remove 11 from list of music discs which can be smelted into 11"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "music_disc",
+  "ingredients": [
+    {
+      "tag": "bootleg:recuttable_music_discs"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
+  ],
+  "result": {
+    "item": "minecraft:music_disc_mall",
+    "count": 1
+  }
+}
